@@ -14,7 +14,12 @@ Purpose: Building a basic website for the CSCI 434 Web Programming course. This 
 			margin-left: auto;
 			margin-right: auto;
 			width: 50%;
-		}</style>
+		}
+			.responsive{
+				width: 100%;
+				height: auto;
+			}
+		</style>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Sports, Video Games and Much Much More!</title>
@@ -28,11 +33,19 @@ Purpose: Building a basic website for the CSCI 434 Web Programming course. This 
 	</head>
 	<body>
 	<!--Header for the page giving the visitor an idea of what content is going to be on my page-->
-		<h1>Enter the Mind of a Wandering Millenial!</h1>
-		<a href="gallery.html">Gallery</a>
-		<a href="media.html">How To</a>
-		<a href="contact.html">Contact</a>
-		
+	<header> 
+
+		<nav>
+			<a href="gallery.html">Gallery</a>
+			<a href="media.html">Sox Story</a>
+			<a href="tutorial.html">How To</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+
+	</header>	
+	
+	<h1>Enter the Mind of a Wandering Millenial!</h1>
+
 		<!--Paragraphs about my hobbies, and myself in general. Includes pictures-->
 		<h2>Life at Home</h2>
 		<p><strong>I am currently serving in the Air Force and live with my two puppies, wife, and 7 mos old son. We recerntly moved and have really been enjoying our new location, and have settled into the area really well. I
@@ -40,7 +53,9 @@ really do not have too many hobbies, but the two I spend most of my time doing a
 
 <!--Added responsive image underneath my opening line, and adjusted viewport with to 80-->
 
-		<p> <picture> <source media="(min-width: 206px)" srcset="Images/puppies-412.png 412w"    sizes="50vw"> <img src="Images/puppies.png" alt="Nala & Mookie"></picture></p>
+		<p> <picture> <source media="(min-width: 206px)"> <img src="Images/puppies.png" alt="Nala & Mookie"  
+			srcset="Images/puppies.png 206w,     Images/puppies-412.png 412w, 
+			/Images/puppies-618.png 618w"    sizes="(max-width: 480px) 50vw,    (max-width: 960px) 30vw,   30vw"></picture></p>
 		
 		<h3>Hobbies</h3>	
 		<p>As a child I did not have a ton of influence in my hobbies, mostly becasue my parents always were working and on they also weren't really into sports. I however was fascinated and completely enamored 
@@ -60,7 +75,7 @@ and was actually a ton of fun).</p>
 
 <!--Added responsive image for the CellDamage cover. Made the viewport width be 40-->
 
-		<p><picture><source media="(min-width: 1920px)" srcset="Images/celldamage.png 1920w" sizes="40vw"> <img src="Images/celldamage.png" alt="Cell Damage"></picture></p><br>Nevertheless we were happy to be able to play video games at all, but then later on at Christmas dinner we opened presents from family members and 
+		<p><picture><img src="Images/celldamage.png" alt="Cell Damage"></picture></p><br>Nevertheless we were happy to be able to play video games at all, but then later on at Christmas dinner we opened presents from family members and 
 our Uncle bought each of us one new game for our new video game system. We were ecstatic and suddenly had not only our own video game system but also had seven games to play! These days I still spend time playing video games with friends, 
 although these days we cannot play against each other in person as often and instead use an online gaming app called: <a href="https://store.steampowered.com/">Steam.</a></p>
 		<img src="Images/gamecube.png" alt="Gamecube">
