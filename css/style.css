@@ -7,7 +7,7 @@ nav {
 }
 
 header {
-  text-emphasis-color: crimson;
+  text-emphasis-color: #0029F5;
   text-align: left;
   text-decoration: dashed;
   text-decoration: antiquewhite;
@@ -16,11 +16,11 @@ header {
 }
 
 body {
-  background: #efefef;
+  background: #D9CACC;
   font-family: Geneva; 
-  background-color: rgb(16, 11, 88);
+  background-color: #D9CACC;
   border-style: groove;
-  border-color: crimson;
+  border-color: #f0203d;
   border-width: 3em;
   text-align: center; 
   margin: auto;
@@ -29,11 +29,11 @@ body {
 h1   {
   font-size: 20px;
   font-family: Verdana;
-  color: crimson;}
+  color: #0029F5;}
 p    {
   font-family: Tahoma;
   font-size: 16px;
-  color: rgb(145, 145, 145);}
+  color: #f0203d;}
 h2{
   font-size: 20px;
   font-family: Verdana;
