@@ -22,7 +22,7 @@ body {
   background: #FFFFFF;
   font-family: Georgia; 
   background-color: #FFFFFF;
-  border: 50px ridge #BD3039;
+  border: 60px ridge #BD3039;
   text-align: center; 
   margin: auto;
   padding: 10%;
@@ -73,12 +73,47 @@ h4 {
     padding-left: 1em;
     padding-right: 1em;
 }
-
 .galHeader{
   font-size: 35px;
   font-family: Georgia;
   color: #BD3039;
   text-align: center;
+}
+
+
+table.minimalistBlack {
+  border: 3px solid #0C2340;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.minimalistBlack td, table.minimalistBlack th {
+  border: 5px solid #0C2340;
+  padding: 5px 4px;
+}
+table.minimalistBlack tbody td {
+  font-size: 13px;
+  color: #0C2340;
+}
+table.minimalistBlack thead {
+  background: #BD3039;
+  background: -moz-linear-gradient(top, #cd646a 0%, #c3444c 66%, #BD3039 100%);
+  background: -webkit-linear-gradient(top, #cd646a 0%, #c3444c 66%, #BD3039 100%);
+  background: linear-gradient(to bottom, #cd646a 0%, #c3444c 66%, #BD3039 100%);
+  border-bottom: 3px solid #BD3039;
+}
+table.minimalistBlack thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #0C2340;
+  text-align: center;
+}
+table.minimalistBlack tfoot td {
+  font-size: 14px;
+}
+
+.closing{
+  padding-top: 30px;
 }
 
 
