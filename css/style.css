@@ -1,11 +1,12 @@
-element.style {
+center.style {
 
 }
 
 nav {
   font-family: Georgia;
   display: inherit;
-  scroll-padding-block: 3em;
+  padding: 5px;
+  scroll-padding-block: 1em;
 }
 
 header {
@@ -25,22 +26,24 @@ body {
   border: 60px ridge #BD3039;
   text-align: center; 
   margin: auto;
-  padding: 10%;
+  padding: 5%;
 }
 h1   {
-  font-size: 20px;
+  font-size: 24px;
   font-family: Georgia;
-  color: #0C238C;}
+  color: #0C238C;
+  padding-top: 3px;
+}
 p    {
   font-family: Geneva;
-  font-size: 16px;
+  font-size: 20px;
   color: #0C2340;}
 h2{
-  font-size: 20px;
+  font-size: 24px;
   font-family: Georgia;
   color: #BD3039;}
   h3{
-  font-size: 20px;
+  font-size: 24px;
   font-family: Georgia;
   color: #BD3039;
   }
@@ -60,7 +63,7 @@ h2{
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 24px;
   font-family: Georgia;
   color: #BD3039;
   text-align: left;
@@ -68,11 +71,13 @@ h4 {
 }
 .baseball-img {
     display: inline;
-    width: 20%;
-    height: 150px;
-    padding-left: 1em;
-    padding-right: 1em;
+    width: 90%;
 }
+@media only screen and (min-width: 600px) {  .baseball-img {
+  width: 30%;
+  }
+  }
+
 .galHeader{
   font-size: 35px;
   font-family: Georgia;
@@ -116,9 +121,13 @@ table.minimalistBlack tfoot td {
   padding-top: 30px;
 }
 
-
-
-
-
-
-
+.content{font-family: Geneva;
+  font-size: 20px;
+  color: #0C2340;
+  padding-bottom: 20px
+}
+.content-1{font-family: Geneva;
+  font-size: 20px;
+  color: #0C2340;
+  padding-top: 20px;
+}
