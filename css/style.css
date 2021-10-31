@@ -1,14 +1,18 @@
-center.style {
+/*
+Date created: 12 October, 2021
+Last edited: 31 October, 2021
+Created by: Tyler Cardwell
+Purpose: Created the code for styling the different pages of my website. 
+|*/
 
-}
-
+/*The styling for the navigation bar on the website*/
 nav {
   font-family: Georgia;
   display: inherit;
   padding: 5px;
   scroll-padding-block: 1em;
 }
-
+/*Added a border around the nav bar*/
 header {
   border: 10px solid #0C2340;
   text-emphasis-color: #0C238C;
@@ -18,7 +22,7 @@ header {
   font-size: 25px;
   font-family: Georgia;
 }
-
+/*The general look of my Fan Page*/
 body {
   background: #FFFFFF;
   font-family: Georgia; 
@@ -47,7 +51,7 @@ h2{
   font-family: Georgia;
   color: #BD3039;
   }
-
+/*This holds the styling code for the 3 different rows of images on the Gallery page*/
   .box{
     padding-top: 1rem;
     border: 5px solid #0C2340;
@@ -73,6 +77,7 @@ h4 {
     display: inline;
     width: 90%;
 }
+/*Used a media query to make the gallery page fully responsive*/
 @media only screen and (min-width: 600px) {  .baseball-img {
   width: 30%;
   }
@@ -85,7 +90,8 @@ h4 {
   text-align: center;
 }
 
-
+/*The source code for the table used on the links page, I adjusted the colors and border sizes so the 
+table would match the rest of the webpage better*/
 table.minimalistBlack {
   border: 3px solid #0C2340;
   width: 100%;
@@ -116,7 +122,8 @@ table.minimalistBlack thead th {
 table.minimalistBlack tfoot td {
   font-size: 14px;
 }
-
+/*These are elements for a few different classes that created extra padding on the text
+so there was more space between the table and the text*/
 .closing{
   padding-top: 30px;
 }
